@@ -32,7 +32,7 @@ Each R script file under "R" subfolder represents a model component:
 Every time you make any change to the above files, you must deploy the project by executing the following commands before running the model.
 
 ```R
-Rgogo::DeplopyProject("LTPricing", overwrite = TRUE)
+Rgogo::DeployProject("LTPricing", overwrite = TRUE)
 ```
 
 ## Running Model

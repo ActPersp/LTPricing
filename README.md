@@ -20,7 +20,6 @@ You can make changes to the model by modifying any R script files under "R" subf
 
 Each R script file under "R" subfolder represents a model component:
 
-|--- | --- |
 | File Name | Model Component |
 | --- | --- |
 | Plan.LT20.R | 20-year level term product features |

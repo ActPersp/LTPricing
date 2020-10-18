@@ -1,9 +1,9 @@
 # LTPricing
-A sample project for level term insurance pricing using Rgogo Framework.
+A sample pricing project for level term insurance products.
 
 ## Objective
 
-The objective of this project is to provide an introductory demonstration of actuarial modeling using Rgogo Framework.  The project uses a 20-year level term pricing model to show how Rgogo can help actuaries to build actuarial models easily and quickly.
+The objective of this project is to provide an introductory demonstration of actuarial modeling using Rgogo Framework.  The project demonstratesus a simple pricing exercise for a 20-year level term insurance and a level term to age 65 using Rgogo framework.  The intention is to show how Rgogo can help actuaries to build actuarial models easily and quickly.
 
 ## Prerequisite
 
@@ -14,6 +14,8 @@ library(devtools)
 install_github(repo = "ActPersp/Rgogo")
 install_github(repo = "ActPersp/MortTables.CA")
 ```
+
+It is also assumed that you are using RStudio for development environment.
 
 ## Modifying Model
 
@@ -31,6 +33,8 @@ Each R script file under "R" subfolder represents a model component:
 | ExpnsAssump.R | Expense assumption |
 | Model.R| Model for solving premium rates |
 
+## Deploying Model
+
 Every time you make any change to the above files, you must deploy the project by executing the following commands before running the model.
 
 ```R
@@ -39,7 +43,7 @@ Rgogo::DeployProject("LTPricing", overwrite = TRUE)
 
 ## Running Model
 
-Before running the model, make sure that you have deployed the project as described above.
+Build package before running the model.  To build the package, click RStudio menu items: Build > Install and Restart.
 
 Run the script file Generate_PremTable.R under "batch" subfolder.  The job will calculate premium rates and export the premium table to an Excel file under "export" subfolder.
 

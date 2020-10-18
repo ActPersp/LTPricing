@@ -1,7 +1,7 @@
 New.ArgSet.LTPricing <- function() {
    object <- ArgSet.PremSolver(
       projStartDate = as.Date("2020-01-01"),
-      pricIssAge = c(20L, 60L),
+      pricIssAge = c(20L, 55L),
       pricFaceAmt = 500000,
       pricPremMode = 1L,
       unitFaceAmt = 1000,

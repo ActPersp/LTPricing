@@ -7,11 +7,12 @@ The objective of this project is to provide an introductory demonstration of act
 
 ## Prerequisite
 
-You must install Rgogo package before using this sample project.  You can download and install Rgogo with the following commands:
+You must install `Rgogo` package and Canadian mortality table package `MortTables.CA` before using this sample project.  You can download these packages with the following commands if you have not done so:
 
 ```R
 library(devtools)
 install_github(repo = "ActPersp/Rgogo")
+install_github(repo = "MortTables.CA")
 ```
 
 ## Modifying Model
@@ -23,6 +24,7 @@ Each R script file under "R" subfolder represents a model component:
 | File Name | Model Component |
 | --- | --- |
 | Plan.LT20.R | 20-year level term product features |
+| Plan.LT65.R | Level term to age 65 product features |
 | MortAssump.R | Mortality assumption |
 | LapseAssump.R | Lapse assumption |
 | IntrAssump.R | Interest rate assumption |

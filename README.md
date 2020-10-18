@@ -12,7 +12,7 @@ You must install `Rgogo` package and Canadian mortality table package `MortTable
 ```R
 library(devtools)
 install_github(repo = "ActPersp/Rgogo")
-install_github(repo = "MortTables.CA")
+install_github(repo = "ActPersp/MortTables.CA")
 ```
 
 ## Modifying Model

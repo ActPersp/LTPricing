@@ -10,6 +10,5 @@ job <- Job.PremSolver(
    exportToExcel = "export/LTPremTable.xlsx"
 )
 
-#Run(job)     # Run job using single core
 RunParallel(job)     # Run job unsing multiple cores
 

@@ -43,8 +43,6 @@ Rgogo::DeployProject("LTPricing", overwrite = TRUE)
 
 ## Running Model
 
-Build package before running the model.  To build the package, click RStudio menu items: **Build > Install and Restart**.
-
 Run the script file Generate_PremTable.R under "batch" subfolder.  The job will calculate premium rates and export the premium tables to an Excel file under "export" subfolder.
 
 

@@ -1,11 +1,11 @@
 Package: LTPricing
 Type: Package
-Version: 1.0
+Version: 1.1
 License: GNU GPLv3
 Title: Level Term Pricing
 Description: A sample project of level term pricing using Rgogo Framework.
 Author: Edward Kuo
-Maintainer: Edward Kuo <ekuo70@gmail.com>
+Maintainer: Edward Kuo <ekuo@actuarialperspective.com>
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 4.0.1)
